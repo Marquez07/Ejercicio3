@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-sep-2019, 8:49:42
+    Author     : Usuario
+*/
+
+.root{
+    -fx-background-image:url("paisaje.jpg");
+}
+
+.label{
+    -fx-font-size:12px;
+    -fx-font-weight:bold;
+    -fx-text-fill: white;
+}
+
+#bienvenido{
+    -fx-font-size: 50px;
+    -fx-fill:linear-gradient(red, orange);
+    -fx-font-family: "Arial Black";
+    -fx-effect: innershadow(three-pass-box, red, 6,0.0,0,2);
+}
+
+#accion{
+    -fx-font-size:25px;
+    -fx-fill:firebrick;
+    -fx-font-weight:bold;
+    -fx-effect: dropshadow( gaussian , black , 0,0,0,1 );
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-family: "Calibri";
+    -fx-background-color: linear-gradient(red, orange);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover{
+    -fx-background-color:black ;
+}
+
